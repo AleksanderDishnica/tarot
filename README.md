@@ -1,2 +1,2 @@
-# tarot
+# Tarot
 Tarot game in PHP
