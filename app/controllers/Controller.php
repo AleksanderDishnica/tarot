@@ -1,7 +1,11 @@
 <?php
+	/**
+	 * @author Aleksander Dishnica <adishnica@yahoo.com>
+	 */
+
 	class Controller
 	{
-		protected $production = 0;
+		protected $production = true;
 
 		public function __construct(){
 			echo 'construct';

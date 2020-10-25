@@ -14,16 +14,16 @@
 			<nav>
 				<ul>
 					<li>
-						
+						<img src="" alt="">
 					</li>
 					<li>
-						Home
+						<a href="">Home</a>
 					</li>
 					<li>
-						<a href="">Login</a>
+						<a href="./login">Login</a>
 					</li>
 					<li>
-						<a href="">Register</a>
+						<a href="./register">Register</a>
 					</li>
 				</ul>
 			</nav>

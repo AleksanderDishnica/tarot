@@ -1,6 +1,6 @@
 <?php
 	require_once 'vendor/autoload.php';
 
-	$number = 10;
+	$cards = 10;
 
-	$tarot = new TarotController($number);
+	new TarotController($cards);
