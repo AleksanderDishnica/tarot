@@ -2,8 +2,7 @@
 	/**
 	 * @author Aleksander Dishnica <adishnica@yahoo.com>
 	 */
-
-	class Controller
+	class Controller extends ViewsController
 	{
 		protected $production = true;
 
