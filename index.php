@@ -3,4 +3,6 @@
 
 	$cards = 10;
 
-	new TarotController($cards);
+	new TarotController([
+		'title' => 'Tarot Cards',
+	]);

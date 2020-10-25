@@ -6,7 +6,7 @@
 	{
 		protected $cards = 10;
 
-		public __construct(array $values){
+		public function __construct(array $values){
 			return parent::view('index', $values);
 		}
 	}
