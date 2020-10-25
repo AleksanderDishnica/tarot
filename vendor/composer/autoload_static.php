@@ -21,10 +21,6 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         array (
             'Webmozart\\Assert\\' => 17,
         ),
-        'V' => 
-        array (
-            'Vendor\\Namespace\\' => 17,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
@@ -33,10 +29,6 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         array (
             'Prophecy\\' => 9,
             'PhpParser\\' => 10,
-        ),
-        'M' => 
-        array (
-            'Monolog\\' => 8,
         ),
         'D' => 
         array (
@@ -56,10 +48,6 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
-        'Vendor\\Namespace\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/',
-        ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
@@ -72,10 +60,6 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'Monolog\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
@@ -87,6 +71,10 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
     );
 
     public static $classMap = array (
+        'Calculator' => __DIR__ . '/../..' . '/app/controllers/Calculator.php',
+        'CalculatorTest' => __DIR__ . '/../..' . '/test/CalculatorTest.php',
+        'Controller' => __DIR__ . '/../..' . '/app/controllers/Controller.php',
+        'Model' => __DIR__ . '/../..' . '/app/models/Model.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
@@ -675,6 +663,7 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'TarotController' => __DIR__ . '/../..' . '/app/controllers/TarotController.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',
         'TheSeer\\Tokenizer\\NamespaceUriException' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUriException.php',

@@ -1,9 +1,9 @@
 {
 	"autoload": {
-        "psr-4": {
-            "Monolog\\": "src/",
-            "Vendor\\Namespace\\": ""
-        }
+    	"classmap": [
+    		"app",
+    		"test"
+    	]
     },
     "require": {
         "phpunit/phpunit": "^9.4"

@@ -1,6 +1,5 @@
 <?php
-	require_once 'app/controllers/Controller.php';
-	require_once 'app/controllers/TarotController.php';
+	require_once 'vendor/autoload.php';
 
 	$number = 10;
 
