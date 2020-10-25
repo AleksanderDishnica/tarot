@@ -1,3 +1,3 @@
 <div>
-	<h1>Play the game</h1>
+	<h1><button class="btn btn-primary">Play the game</button></h1>
 </div>
