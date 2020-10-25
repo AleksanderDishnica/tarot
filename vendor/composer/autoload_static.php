@@ -21,6 +21,10 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'V' => 
+        array (
+            'Vendor\\Namespace\\' => 17,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
@@ -29,6 +33,10 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         array (
             'Prophecy\\' => 9,
             'PhpParser\\' => 10,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
         ),
         'D' => 
         array (
@@ -48,6 +56,10 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
+        'Vendor\\Namespace\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/',
+        ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
@@ -59,6 +71,10 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

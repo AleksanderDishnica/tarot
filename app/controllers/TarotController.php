@@ -1,6 +1,4 @@
 <?php
-	require_once 'Controller.php';
-
 	class TarotController extends Controller
 	{
 		public function __construct($number){
