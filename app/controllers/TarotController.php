@@ -9,4 +9,10 @@
 		public function __construct(array $values){
 			return parent::view('index', $values);
 		}
+
+		public function start($cards = $this->cards){
+			for($i = 0; $i < $cards; $i++){
+				return parent::view('cards', $values);
+			}
+		}
 	}
