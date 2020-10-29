@@ -1,3 +1,5 @@
 <div>
-	<h1><button class="btn btn-primary">Play the game</button></h1>
+	<button class="btn btn-success">
+		<a href="/game" alt="Play tarot game">Play the game</a>
+	</button>
 </div>
