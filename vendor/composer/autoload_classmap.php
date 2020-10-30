@@ -8,7 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'Calculator' => $baseDir . '/app/controllers/Calculator.php',
     'CalculatorTest' => $baseDir . '/test/CalculatorTest.php',
-    'Controller' => $baseDir . '/app/controllers/Controller.php',
     'Model' => $baseDir . '/app/models/Model.php',
     'PHPUnit\\Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => $vendorDir . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
@@ -598,7 +597,6 @@ return array(
     'SebastianBergmann\\Type\\UnknownType' => $vendorDir . '/sebastian/type/src/UnknownType.php',
     'SebastianBergmann\\Type\\VoidType' => $vendorDir . '/sebastian/type/src/VoidType.php',
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
-    'TarotController' => $baseDir . '/app/controllers/TarotController.php',
     'TheSeer\\Tokenizer\\Exception' => $vendorDir . '/theseer/tokenizer/src/Exception.php',
     'TheSeer\\Tokenizer\\NamespaceUri' => $vendorDir . '/theseer/tokenizer/src/NamespaceUri.php',
     'TheSeer\\Tokenizer\\NamespaceUriException' => $vendorDir . '/theseer/tokenizer/src/NamespaceUriException.php',
@@ -607,5 +605,9 @@ return array(
     'TheSeer\\Tokenizer\\TokenCollectionException' => $vendorDir . '/theseer/tokenizer/src/TokenCollectionException.php',
     'TheSeer\\Tokenizer\\Tokenizer' => $vendorDir . '/theseer/tokenizer/src/Tokenizer.php',
     'TheSeer\\Tokenizer\\XMLSerializer' => $vendorDir . '/theseer/tokenizer/src/XMLSerializer.php',
-    'ViewsController' => $baseDir . '/app/controllers/ViewsController.php',
+    'app\\Users' => $baseDir . '/app/models/Users.php',
+    'app\\controllers\\Controller' => $baseDir . '/app/controllers/Controller.php',
+    'app\\controllers\\TarotController' => $baseDir . '/app/controllers/TarotController.php',
+    'app\\controllers\\UsersController' => $baseDir . '/app/controllers/UsersController.php',
+    'app\\controllers\\ViewsController' => $baseDir . '/app/controllers/ViewsController.php',
 );

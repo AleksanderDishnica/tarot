@@ -2,6 +2,8 @@
 	/**
 	 * @author Aleksander Dishnica <adishnica@yahoo.com>
 	 */
+	namespace app\controllers;
+
 	class TarotController extends Controller
 	{
 		public $cards = 10;
@@ -10,7 +12,7 @@
 			return parent::view('index', $values);
 		}
 
-		public function start(array $cards){
-			return parent::view('cards/index', $cards);
+		public function start(array $values){
+			return parent::view('cards/index', $values);
 		}
 	}

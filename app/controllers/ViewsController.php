@@ -2,6 +2,8 @@
 	/**
 	 * @author  Aleksander Dishnica <adishnica@yahoo.com>
 	 */
+	namespace app\controllers;
+	
 	class ViewsController
 	{
 		public static function view($view_file, $items = []){

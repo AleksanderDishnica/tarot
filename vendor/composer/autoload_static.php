@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
 {
     public static $files = array (
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     );
 
@@ -41,8 +41,8 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -73,7 +73,6 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
     public static $classMap = array (
         'Calculator' => __DIR__ . '/../..' . '/app/controllers/Calculator.php',
         'CalculatorTest' => __DIR__ . '/../..' . '/test/CalculatorTest.php',
-        'Controller' => __DIR__ . '/../..' . '/app/controllers/Controller.php',
         'Model' => __DIR__ . '/../..' . '/app/models/Model.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
@@ -663,7 +662,6 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
-        'TarotController' => __DIR__ . '/../..' . '/app/controllers/TarotController.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',
         'TheSeer\\Tokenizer\\NamespaceUriException' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUriException.php',
@@ -672,7 +670,11 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
-        'ViewsController' => __DIR__ . '/../..' . '/app/controllers/ViewsController.php',
+        'app\\Users' => __DIR__ . '/../..' . '/app/models/Users.php',
+        'app\\controllers\\Controller' => __DIR__ . '/../..' . '/app/controllers/Controller.php',
+        'app\\controllers\\TarotController' => __DIR__ . '/../..' . '/app/controllers/TarotController.php',
+        'app\\controllers\\UsersController' => __DIR__ . '/../..' . '/app/controllers/UsersController.php',
+        'app\\controllers\\ViewsController' => __DIR__ . '/../..' . '/app/controllers/ViewsController.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
