@@ -10,7 +10,7 @@
 			return parent::view('index', $values);
 		}
 
-		public function start($cards){
+		public function start(array $cards){
 			return parent::view('cards/index', $cards);
 		}
 	}

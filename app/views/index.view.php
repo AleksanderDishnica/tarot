@@ -1,5 +1,3 @@
 <div>
-	<button class="btn btn-success">
-		<a href="/game" alt="Play tarot game">Play the game</a>
-	</button>
+	<a href="./index.php?game=1" class="btn btn-success" alt="Play tarot game">Play the game</a>
 </div>
