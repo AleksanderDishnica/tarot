@@ -606,6 +606,7 @@ return array(
     'TheSeer\\Tokenizer\\Tokenizer' => $vendorDir . '/theseer/tokenizer/src/Tokenizer.php',
     'TheSeer\\Tokenizer\\XMLSerializer' => $vendorDir . '/theseer/tokenizer/src/XMLSerializer.php',
     'app\\controllers\\Controller' => $baseDir . '/app/controllers/Controller.php',
+    'app\\controllers\\PagesController' => $baseDir . '/app/controllers/PagesController.php',
     'app\\controllers\\TarotController' => $baseDir . '/app/controllers/TarotController.php',
     'app\\controllers\\UsersController' => $baseDir . '/app/controllers/UsersController.php',
     'app\\controllers\\ViewsController' => $baseDir . '/app/controllers/ViewsController.php',

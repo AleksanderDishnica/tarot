@@ -671,6 +671,7 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
         'app\\controllers\\Controller' => __DIR__ . '/../..' . '/app/controllers/Controller.php',
+        'app\\controllers\\PagesController' => __DIR__ . '/../..' . '/app/controllers/PagesController.php',
         'app\\controllers\\TarotController' => __DIR__ . '/../..' . '/app/controllers/TarotController.php',
         'app\\controllers\\UsersController' => __DIR__ . '/../..' . '/app/controllers/UsersController.php',
         'app\\controllers\\ViewsController' => __DIR__ . '/../..' . '/app/controllers/ViewsController.php',

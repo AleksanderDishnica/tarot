@@ -4,7 +4,7 @@
 	 */
 	namespace app\models;
 
-	class Users
+	class Users extends Model
 	{
 		public function get_users(){
 			echo 'Aleksander';

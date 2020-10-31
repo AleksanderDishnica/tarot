@@ -9,10 +9,10 @@
 		protected $production = true;
 
 		public function __construct(){
-			echo 'construct';
+			return 'construct';
 		}
 
 		function main(){
-			echo 'Main Controller';
+			return 'Main Controller';
 		}
 	}
