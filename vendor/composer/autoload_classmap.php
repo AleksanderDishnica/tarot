@@ -605,9 +605,9 @@ return array(
     'TheSeer\\Tokenizer\\TokenCollectionException' => $vendorDir . '/theseer/tokenizer/src/TokenCollectionException.php',
     'TheSeer\\Tokenizer\\Tokenizer' => $vendorDir . '/theseer/tokenizer/src/Tokenizer.php',
     'TheSeer\\Tokenizer\\XMLSerializer' => $vendorDir . '/theseer/tokenizer/src/XMLSerializer.php',
-    'app\\Users' => $baseDir . '/app/models/Users.php',
     'app\\controllers\\Controller' => $baseDir . '/app/controllers/Controller.php',
     'app\\controllers\\TarotController' => $baseDir . '/app/controllers/TarotController.php',
     'app\\controllers\\UsersController' => $baseDir . '/app/controllers/UsersController.php',
     'app\\controllers\\ViewsController' => $baseDir . '/app/controllers/ViewsController.php',
+    'app\\models\\Users' => $baseDir . '/app/models/Users.php',
 );
