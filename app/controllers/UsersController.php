@@ -16,12 +16,12 @@
 		public function signup($values = ['title' => 'Sign Up']){
 			$_SESSION['signup'] = true;
 
-			return parent::view('signup', $values);
+			return parent::view('registration/signup', $values);
 		}
 
 		public function login($values = ['title' => 'Login']){
 			$_SESSION['login'] = true;
 
-			return parent::view('login', $values);
+			return parent::view('registration/login', $values);
 		}
 	}

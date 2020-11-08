@@ -4,6 +4,9 @@
 	 */
 	namespace app\models;
 
+	//https://stackoverflow.com/questions/9177945/fatal-error-class-app-pdo-not-found-in
+	use PDO;
+
 	class Model
 	{
 		public function __construct($db = 'tarot', $connection = 'pdo'){
