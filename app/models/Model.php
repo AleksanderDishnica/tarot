@@ -6,7 +6,6 @@
 
 	//https://stackoverflow.com/questions/9177945/fatal-error-class-app-pdo-not-found-in
 	use PDO;
-	// use app\models\Users as Users;
 	use app\helpers\Helper as Helper;
 
 	class Model
@@ -23,7 +22,10 @@
 					$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 					// Show alert
-					Helper::alert(['text' => 'PDO connection successful!']);
+					Helper::alert([
+						'text' => 'PDO connection successful!',
+						'buttonClass' => 'danger',
+					]);
 				}catch(PDOException $e){
 					echo "Connection failed: " . $e->getMessage();
 				}

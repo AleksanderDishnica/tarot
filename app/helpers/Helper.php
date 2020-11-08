@@ -8,7 +8,7 @@
 
 	class Helper extends Controller
 	{
-		public static function Alert($values){
+		public static function Alert($values = ['buttonClass' => 'danger']){
 			return parent::section('helpers/alert', $values);
 		}
 	}
