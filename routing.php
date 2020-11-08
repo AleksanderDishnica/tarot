@@ -7,16 +7,28 @@
 	// new UsersController();die();
 
 	if(!isset($_GET['game'])){
+		if(isset($_SESSION['login'])){
+			$login = $_SESSION['login'];
+		}else{
+			$login = false;
+		}
+
 		new TarotController([
 			'title' => 'Tarot Cards',
 			'description' => 'Tarot Cards game made in PHP. Check out the source file.',
-			'logged_in' => $_SESSION['login'],
+			'logged_in' => $login,
 		]);
 	}else{
+		if(isset($_SESSION['login'])){
+			$login = $_SESSION['login'];
+		}else{
+			$login = false;
+		}
+
 		TarotController::start([
 			'cards' => 10,
 			'title' => 'Start game',
-			'logged_in' => $_SESSION['login'],
+			'logged_in' => $login,
 		]);
 	}
 
@@ -27,19 +39,11 @@
 	}
 
 	if(isset($_GET['login'])){
-		echo '<form action="" method="POST">
-			Email:<br><input type="email" name="email"><br>
-			Password:<br><input type="password" name="password"><br>
-			<button type="submit">Login</button>
-		</form>';
+		$user = new UsersController;
+		$user->login();
 	}
 
 	if(isset($_GET['signup'])){
-		echo '<form action="" method="POST">
-			<h3>Register to play the Tarot game</h3>
-			Name:<br><input type="text" name="name"><br>
-			Email:<br><input type="email" name="email"><br>
-			Password:<br><input type="password" name="password"><br>
-			<button type="submit">Signup</button>
-		</form>';
+		$user = new UsersController;
+		$user->register();
 	}

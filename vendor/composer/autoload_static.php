@@ -112,7 +112,6 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         'Calculator' => __DIR__ . '/../..' . '/app/controllers/Calculator.php',
         'CalculatorTest' => __DIR__ . '/../..' . '/test/CalculatorTest.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
-        'Model' => __DIR__ . '/../..' . '/app/models/Model.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
@@ -717,6 +716,7 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         'app\\controllers\\TarotController' => __DIR__ . '/../..' . '/app/controllers/TarotController.php',
         'app\\controllers\\UsersController' => __DIR__ . '/../..' . '/app/controllers/UsersController.php',
         'app\\controllers\\ViewsController' => __DIR__ . '/../..' . '/app/controllers/ViewsController.php',
+        'app\\models\\Model' => __DIR__ . '/../..' . '/app/models/Model.php',
         'app\\models\\Users' => __DIR__ . '/../..' . '/app/models/Users.php',
     );
 

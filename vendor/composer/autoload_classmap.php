@@ -10,7 +10,6 @@ return array(
     'Calculator' => $baseDir . '/app/controllers/Calculator.php',
     'CalculatorTest' => $baseDir . '/test/CalculatorTest.php',
     'JsonException' => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
-    'Model' => $baseDir . '/app/models/Model.php',
     'PHPUnit\\Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => $vendorDir . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
     'PHPUnit\\Framework\\Assert' => $vendorDir . '/phpunit/phpunit/src/Framework/Assert.php',
@@ -615,5 +614,6 @@ return array(
     'app\\controllers\\TarotController' => $baseDir . '/app/controllers/TarotController.php',
     'app\\controllers\\UsersController' => $baseDir . '/app/controllers/UsersController.php',
     'app\\controllers\\ViewsController' => $baseDir . '/app/controllers/ViewsController.php',
+    'app\\models\\Model' => $baseDir . '/app/models/Model.php',
     'app\\models\\Users' => $baseDir . '/app/models/Users.php',
 );
