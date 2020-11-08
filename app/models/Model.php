@@ -6,6 +6,8 @@
 
 	//https://stackoverflow.com/questions/9177945/fatal-error-class-app-pdo-not-found-in
 	use PDO;
+	// use app\models\Users as Users;
+	use app\helpers\Helper as Helper;
 
 	class Model
 	{
@@ -16,12 +18,14 @@
 				$password = "";
 
 				try {
-				  $conn = new PDO("mysql:host=$servername;dbname=".$db, $username, $password);
-				  // set the PDO error mode to exception
-				  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-				  echo "Connected successfully";
-				} catch(PDOException $e) {
-				  echo "Connection failed: " . $e->getMessage();
+					$conn = new PDO("mysql:host=$servername;dbname=".$db, $username, $password);
+					// set the PDO error mode to exception
+					$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+					// Show alert
+					Helper::alert(['text' => 'PDO connection successful!']);
+				}catch(PDOException $e){
+					echo "Connection failed: " . $e->getMessage();
 				}
 			}
 		}

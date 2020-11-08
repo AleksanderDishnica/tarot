@@ -716,6 +716,7 @@ class ComposerStaticInite0e57fa2d9522ada2048744bee3fb65b
         'app\\controllers\\TarotController' => __DIR__ . '/../..' . '/app/controllers/TarotController.php',
         'app\\controllers\\UsersController' => __DIR__ . '/../..' . '/app/controllers/UsersController.php',
         'app\\controllers\\ViewsController' => __DIR__ . '/../..' . '/app/controllers/ViewsController.php',
+        'app\\helpers\\Helper' => __DIR__ . '/../..' . '/app/helpers/helper.php',
         'app\\models\\Model' => __DIR__ . '/../..' . '/app/models/Model.php',
         'app\\models\\Users' => __DIR__ . '/../..' . '/app/models/Users.php',
     );

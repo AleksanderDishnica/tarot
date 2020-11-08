@@ -6,7 +6,7 @@
 
 	class Users extends Model
 	{
-		public function get_users(){
-			echo 'Aleksander';
+		public function welcome(){
+			echo 'Welcome Aleksander';
 		}
 	}

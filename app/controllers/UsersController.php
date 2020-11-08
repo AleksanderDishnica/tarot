@@ -9,8 +9,8 @@
 	class UsersController extends Controller
 	{
 		public function __construct(){
-			$users = new Users;
-			$users->get_users();
+			$user = new Users;
+			$user->welcome();
 		}
 
 		public function signup($values = ['title' => 'Sign Up']){
