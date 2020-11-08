@@ -614,7 +614,7 @@ return array(
     'app\\controllers\\TarotController' => $baseDir . '/app/controllers/TarotController.php',
     'app\\controllers\\UsersController' => $baseDir . '/app/controllers/UsersController.php',
     'app\\controllers\\ViewsController' => $baseDir . '/app/controllers/ViewsController.php',
-    'app\\helpers\\Helper' => $baseDir . '/app/helpers/helper.php',
+    'app\\helpers\\Helper' => $baseDir . '/app/helpers/Helper.php',
     'app\\models\\Model' => $baseDir . '/app/models/Model.php',
     'app\\models\\Users' => $baseDir . '/app/models/Users.php',
 );
