@@ -12,4 +12,12 @@
 			$users = new Users;
 			$users->get_users();
 		}
+
+		public function signup(){
+
+		}
+
+		public function login(){
+			
+		}
 	}
