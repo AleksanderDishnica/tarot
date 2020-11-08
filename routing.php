@@ -1,4 +1,7 @@
 <?php
+	// https://stackoverflow.com/questions/17554824/mysqli-connection-not-working-inside-function
+	global $conn;
+
 	require_once 'vendor/autoload.php';
 
 	use app\controllers\TarotController as TarotController;
