@@ -25,3 +25,21 @@
 	}else{
 		echo 'You need to register in order to play the game.';
 	}
+
+	if(isset($_GET['login'])){
+		echo '<form action="" method="POST">
+			Email:<br><input type="email" name="email"><br>
+			Password:<br><input type="password" name="password"><br>
+			<button type="submit">Login</button>
+		</form>';
+	}
+
+	if(isset($_GET['signup'])){
+		echo '<form action="" method="POST">
+			<h3>Register to play the Tarot game</h3>
+			Name:<br><input type="text" name="name"><br>
+			Email:<br><input type="email" name="email"><br>
+			Password:<br><input type="password" name="password"><br>
+			<button type="submit">Signup</button>
+		</form>';
+	}
