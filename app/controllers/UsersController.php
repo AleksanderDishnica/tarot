@@ -13,11 +13,15 @@
 			$users->get_users();
 		}
 
-		public function signup(){
+		public function signup($values = ['title' => 'Sign Up']){
+			$_SESSION['signup'] = true;
 
+			return parent::view('signup', $values);
 		}
 
-		public function login(){
-			
+		public function login($values = ['title' => 'Login']){
+			$_SESSION['login'] = true;
+
+			return parent::view('login', $values);
 		}
 	}

@@ -21,7 +21,7 @@
 	}
 
 	if(isset($_POST['login'])){
-		echo '<button class="btn btn-primary">Play Tarot game</button>';
+		echo '<button class="btn btn-primary" href="play.php">Play Tarot game</button>';
 	}else{
 		echo 'You need to register in order to play the game.';
 	}
