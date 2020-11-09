@@ -10,16 +10,18 @@
 
 	class Model
 	{
+		public $conn;
+
 		public function __construct($db = 'tarot', $connection = 'pdo'){
 			if($connection == 'pdo'){
 				$servername = "localhost";
-				$username = "root";
-				$password = "";
+				$username 	= "root";
+				$password 	= "";
 
 				try {
-					$conn = new PDO("mysql:host=$servername;dbname=".$db, $username, $password);
+					$this->conn = new PDO("mysql:host=$servername;dbname=".$db, $username, $password);
 					// set the PDO error mode to exception
-					$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+					$this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 					// Show alert
 					Helper::alert([
