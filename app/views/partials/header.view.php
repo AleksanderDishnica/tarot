@@ -22,8 +22,8 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="root">
-				<header>
+			<div class="row no-gutters">
+				<header class="col-lg-12">
 					<nav class="navbar navbar-expand-lg navbar-light bg-light">
 						<a class="navbar-brand" href="./">Tarot</a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
