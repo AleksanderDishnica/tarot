@@ -47,7 +47,7 @@
 
 	if(isset($_GET['signup'])){
 		$user = new UsersController;
-		$user->register();
+		$user->signup();
 	}
 
 	PagesController::footer();
