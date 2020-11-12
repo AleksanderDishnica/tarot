@@ -32,8 +32,8 @@
 						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 							<div class="navbar-nav">
 								<a class="nav-item nav-link active" href="">Home <span class="sr-only">(current)</span></a>
-								<a class="nav-item nav-link" href="./login">Login</a>
-								<a class="nav-item nav-link" href="./register">Register</a>
+								<a class="nav-item nav-link" href="./routing.php?login=1">Login</a>
+								<a class="nav-item nav-link" href="./routing.php?signup=1">Register</a>
 							</div>
 						</div>
 					</nav>

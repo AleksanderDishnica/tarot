@@ -12,4 +12,12 @@
 		public function start(){
 			$_SESSION['login'] = false;
 		}
+
+		public function header(array $values){
+			return parent::section('partials/header', $values);
+		}
+
+		public function footer(array $values = []){
+			return parent::section('partials/footer', $values);
+		}
 	}

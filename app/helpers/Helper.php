@@ -11,4 +11,8 @@
 		public static function Alert($values = ['buttonClass' => 'danger']){
 			return parent::section('helpers/alert', $values);
 		}
+
+		public static function DeveloperMode($activated = true){
+			return $activated;
+		}
 	}

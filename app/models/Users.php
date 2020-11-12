@@ -18,9 +18,11 @@
 			// var_dump($data[0]['name']);die();
 
 			// Show alert
-			Helper::alert([
-				'text' => 'Welcome '.$data[0]['name'].'!',
-				'buttonClass' => 'success',
-			]);
+			if(Helper::DeveloperMode()){
+				Helper::alert([
+					'text' => 'Welcome '.$data[0]['name'].'!',
+					'buttonClass' => 'success',
+				]);
+			}
 		}
 	}

@@ -1,10 +1,12 @@
 <?php
 	require_once 'vendor/autoload.php';
+	require_once 'app/config.php';
 
 	use app\controllers\TarotController as TarotController;
 	use app\controllers\UsersController as UsersController;
+	use app\controllers\PagesController as PagesController;
 
-	// new UsersController();die();
+	PagesController::header(['title'=>'Tarot PHP game | login']);
 
 	if(!isset($_GET['game'])){
 		if(isset($_SESSION['login'])){
@@ -35,7 +37,7 @@
 	if(isset($_POST['login'])){
 		echo '<button class="btn btn-primary" href="play.php">Play Tarot game</button>';
 	}else{
-		echo 'You need to register in order to play the game.';
+		echo '<div class="col-lg-12 alert">You need to register in order to play the game.</div>';
 	}
 
 	if(isset($_GET['login'])){
@@ -47,3 +49,5 @@
 		$user = new UsersController;
 		$user->register();
 	}
+
+	PagesController::footer();

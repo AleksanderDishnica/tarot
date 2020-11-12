@@ -7,4 +7,5 @@
 	$pages = new PagesController;
 	$pages->start();
 
+	// Show header and footer
 	require_once 'routing.php';

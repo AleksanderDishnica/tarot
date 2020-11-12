@@ -4,39 +4,10 @@ $white: #fff;
 body{
 	font-family: 'Roboto', sans-serif;
 	background-image: url('http://localhost/php/tarot/public/img/tarot-login-background.jpg');
+	background-size: 100%;
 	
 	head{
 
-	}
-
-	#wrapper{
-		background-color:white;
-	}
-
-	.alert{
-		margin-top:0.5em;
-		margin-bottom:0.5em;
-
-		strong{
-			padding-left:1em;
-		}
-	}
-
-	#login{
-		background-color:white;
-		padding:1em;
-	}
-
-	header{
-		nav{
-			ul{
-				list-style-type: none;
-	
-				li{
-	
-				}
-			}
-		}
 	}
 
 	p{
@@ -45,5 +16,44 @@ body{
 
 	a{
 		
+	}
+
+	#wrapper{
+		background-color:white;
+
+		header{
+			nav{
+				ul{
+					list-style-type: none;
+						
+					li{
+						
+					}
+				}
+			}
+		}
+
+		.alert{
+			margin-top:0.5em;
+			margin-bottom:0.5em;
+
+			strong{
+				padding-left:1em;
+			}
+		}
+
+		#login{
+			background-color:white;
+			padding:1em;
+		}
+
+		footer{
+			height:10em;
+			padding: 20px 0;
+
+			h6{
+				padding-top:4em;
+			}
+		}
 	}
 }
