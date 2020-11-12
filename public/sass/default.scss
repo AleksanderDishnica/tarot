@@ -2,11 +2,30 @@ $black: #000;
 $white: #fff;
 
 body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url('http://localhost/php/tarot/public/img/tarot-login-background.jpg');
+	
 	head{
 
 	}
 
-	font-family: 'Roboto', sans-serif;
+	#wrapper{
+		background-color:white;
+	}
+
+	.alert{
+		margin-top:0.5em;
+		margin-bottom:0.5em;
+
+		strong{
+			padding-left:1em;
+		}
+	}
+
+	#login{
+		background-color:white;
+		padding:1em;
+	}
 
 	header{
 		nav{

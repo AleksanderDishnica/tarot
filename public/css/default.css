@@ -1,1 +1,1 @@
-body{font-family:Roboto}body header nav ul{list-style-type:none}
+body{font-family:'Roboto', sans-serif;background-image:url("http://localhost/php/tarot/public/img/tarot-login-background.jpg")}body #wrapper{background-color:white}body .alert{margin-top:0.5em;margin-bottom:0.5em}body .alert strong{padding-left:1em}body #login{background-color:white;padding:1em}body header nav ul{list-style-type:none}

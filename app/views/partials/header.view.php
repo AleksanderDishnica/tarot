@@ -21,7 +21,7 @@
 		<link rel="stylesheet" type="text/css" href="public/css/default.css">
 	</head>
 	<body>
-		<div class="container">
+		<div id="wrapper" class="container">
 			<div class="row no-gutters">
 				<header class="col-lg-12">
 					<nav class="navbar navbar-expand-lg navbar-light bg-light">
