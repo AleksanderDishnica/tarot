@@ -14,14 +14,10 @@
 		}
 
 		public function signup($values = ['title' => 'Sign Up']){
-			$_SESSION['signup'] = true;
-
 			return parent::section('registration/signup', $values);
 		}
 
 		public function login($values = ['title' => 'Login']){
-			$_SESSION['login'] = true;
-
 			return parent::section('registration/login', $values);
 		}
 	}

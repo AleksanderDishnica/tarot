@@ -25,12 +25,12 @@
 
 					// Show alert
 					
-					if(Helper::DeveloperMode()){
-						Helper::alert([
-							'text' => 'PDO connection successful!',
-							'buttonClass' => 'danger',
-						]);
-					}
+					// if(Helper::DeveloperMode()){
+					// 	Helper::alert([
+					// 		'text' => 'PDO connection successful!',
+					// 		'buttonClass' => 'danger',
+					// 	]);
+					// }
 				}catch(PDOException $e){
 					echo "Connection failed: " . $e->getMessage();
 				}

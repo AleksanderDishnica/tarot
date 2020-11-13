@@ -40,14 +40,4 @@
 		echo '<div class="col-lg-12 alert">You need to register in order to play the game.</div>';
 	}
 
-	if(isset($_GET['login'])){
-		$user = new UsersController;
-		$user->login();
-	}
-
-	if(isset($_GET['signup'])){
-		$user = new UsersController;
-		$user->signup();
-	}
-
 	PagesController::footer();
