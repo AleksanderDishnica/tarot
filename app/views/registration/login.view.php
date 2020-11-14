@@ -10,7 +10,7 @@
 			<label for="exampleInputPassword1">Password</label>
 			<input type="password" name="password" class="form-control" id="exampleInputPassword1">
 		</div>
-		<input type="invisible" name="login" value="1">
+		<input type="hidden" name="login" value="1">
 		<button type="submit" class="btn btn-primary">Submit</button>
 	</form>
 </div>

@@ -16,13 +16,13 @@
 	$user->login();
 	$user->signup();
 
-	if($_SESSION['login']){
+	if($_POST['login']){
 		$email = $_POST['email'];
 		$password = $_POST['password'];
 
 		echo 'Login';
 	}
-	else if($_SESSION['signup']){
+	else if($_POST['signup']){
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$password = $_POST['password'];
